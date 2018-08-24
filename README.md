@@ -20,10 +20,13 @@ minikube deshboard
 kubectl describe nodes
 
 # 创建新的node
-kubectl create namespace mem-example
+kubectl create -f [myName].yaml
+
+# 验证节点
+kubectl get all -l app=[myName]
 
 # 删除制定node
-kubectl delete pod nodes
+kubectl delete all -l app=[myName]
 ```
 
 ## docker images
