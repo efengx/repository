@@ -18,6 +18,9 @@ minikube deshboard
 
 # 查看集群节点的详细信息
 kubectl describe nodes
+
+# 删除制定节点
+kubectl delete pod nodes
 ```
 
 ## docker images
