@@ -27,6 +27,9 @@ kubectl get all -l app=[myName]
 
 # 删除制定node
 kubectl delete all -l app=[myName]
+
+# 阿里云ubuntu主机安装minikube
+minikube start --vm-driver=none --registry-mirror=https://registry.docker-cn.com
 ```
 
 ## docker images
