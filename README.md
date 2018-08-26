@@ -14,7 +14,7 @@ kubectl cluster-info
 kubectl get pods --all-namespaces
 
 # 查看集群状态（web查看）
-minikube deshboard
+minikube dashboard
 
 # 查看集群节点的详细信息
 kubectl describe nodes
