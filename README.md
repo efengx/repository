@@ -29,6 +29,9 @@ kubectl get all -l app=[myName]
 kubectl delete all -l app=[myName]
 kubectl delete service/[myName]
 
+# 查看pods日志
+kubectl logs -f [podsName-code]
+
 # 阿里云ubuntu主机安装minikube
 minikube start --vm-driver=none --registry-mirror=https://registry.docker-cn.com
 ```
