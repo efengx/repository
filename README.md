@@ -42,3 +42,4 @@ minikube start --vm-driver=none --registry-mirror=https://registry.docker-cn.com
 ## document
 (kubernetes)[https://kubernetes.io/cn/docs/tasks/administer-cluster/kubelet-config-file/]
 
+[其他资料](https://github.com/efengx/repository/wiki)
